@@ -17,7 +17,7 @@ public class Main {
         else {
             int a = Integer.parseInt(result[0]), b = Integer.parseInt(result[2]);
             int r = a * b, r1 = a / b, r2 = a + b, r3 = a - b;
-            if (el.contains("*") || el.contains("/") || el.contains("+") || el.contains("-") && a <= 10 && b <= 10) {
+            if (el.contains("*") && a <= 10 && b <= 10 || el.contains("/") && a <= 10 && b <= 10 || el.contains("+") && a <= 10 && b <= 10 || el.contains("-") && a <= 10 && b <= 10) {
                 int res = el.contains("*") ? r : el.contains("/") ? r1 : el.contains("+") ? r2 : r3;
                 System.out.println("Output: \n" + res);}
             else {System.out.println("Incorrect!");}}
