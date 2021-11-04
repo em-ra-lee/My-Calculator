@@ -1,6 +1,6 @@
 package com.company;
 
-public enum ArabianToRoman {
+public enum Arabian {
     K1("I"),        K2("II"),       K3("III"),      K4("IV"),       K5("V"),        K6("VI"),       K7("VII"),      K8("VIII"),       K9("IX"),         K10("X"),
     K11("XI"),      K12("XII"),     K13("XIII"),    K14("XIV"),     K15("XV"),      K16("XVI"),     K17("XVII"),    K18("XVIII"),     K19("XIX"),       K20("XX"),
     K21("XXI"),     K22("XXII"),    K23("XXIII"),   K24("XXIV"),    K25("XXV"),     K26("XXVI"),    K27("XXVII"),   K28("XXVIII"),    K29("XXIX"),      K30("XXX"),
@@ -14,7 +14,7 @@ public enum ArabianToRoman {
 
     private String name;
 
-    ArabianToRoman(String name) {
+    Arabian(String name) {
         this.name = name;
     }
 
